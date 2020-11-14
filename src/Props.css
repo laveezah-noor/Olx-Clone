@@ -1,0 +1,80 @@
+body{
+    font-size: 14px;
+}
+h1,h2, h3,h4,h5, h5{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+input, button, select, textarea{
+    outline:none
+}
+button{
+    cursor: pointer;
+}
+.fixed{
+    position: fixed;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.sticky{
+    position: sticky;
+}
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.none{
+    display:none;
+}
+.align-c{
+    align-items: center;
+}
+.justify-c{
+    justify-content: center;
+}
+.Row{
+    flex-direction: row !important;
+}
+.Col{flex-direction: column !important;}
+.b{
+    font-weight: bold;
+}
+.s12{font-size: 12px;}
+.s13{font-size: 13px;}
+.s14{font-size: 14px;}
+.s15{font-size: 15px;}
+.s16{font-size: 16px;}
+.s18{font-size: 18px;}
+.s20{font-size: 20px;}
+.s22{font-size: 22px;}
+.s24{font-size: 24px;}
+.s26{font-size: 26px;}
+.s34{font-size: 34px;}
+
+.no-ul{
+    text-decoration: none;
+    list-style: none;
+}
+.colfff{color: #ffffff;}
+
+.pb-6{padding-bottom:12px}
+.placeholder{
+    background-color: #ccc;
+    animation: placeholder 1s infinite ease-in-out;
+}
+@keyframes placeholder{
+    50%{opacity: 1;}
+}
+.bottom{
+    bottom:0
+}
+.grow-1{
+    flex-grow:1;
+}

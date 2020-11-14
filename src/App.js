@@ -1,43 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './New.css';
+import './Props.css';
+import './Main.css'
+import AppRouter from './config/router'
+import 'bootstrap/dist/css/bootstrap.css'
 
-function Header() {
-  return (
-    <div>
-      <h1>Header</h1>
-    </div>
-  )
-
-}
-
-function Main() {
-  return (
-    <div>
-      <h1>Header</h1>
-    </div>
-  )
-
-}
-
-function Footer() {
-  return (
-    <div>
-      <h1>Header</h1>
-    </div>
-  )
-
-}
-
-
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+      return(
+        <div>
+          <AppRouter />
+        </div>
+      )
+  }
 }
 
 export default App;

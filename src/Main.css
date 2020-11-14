@@ -1,0 +1,79 @@
+.Home-row{
+    padding-bottom: 50px;
+}
+.Home-image img{
+    left: 0;
+    right: 0;
+    top: 100px;
+    height: 252px;
+    z-index: 1;
+    margin: 100px 0 50px;
+}
+.slider{
+    background-color: #ebeeef;
+    border-radius: 4px;
+    margin: 16px 0 24px;
+    padding: 16px 16px 32px;
+}
+.card{
+    min-width: 270px;
+    min-height: 266px;
+    max-width: 270px;
+    max-height: 266px;
+    border: 1px solid #ddd;
+    /* max-width: 16rem; */
+    margin: 8px;
+    padding: 8px;
+    flex-basis: 20%;
+}
+.card .card-media{
+    height: 160px;
+}
+/* .card .card-media img{
+    height: 100%;
+    margin: auto;
+    padding:3px 68px;
+} */
+.card .card-head{
+    margin: 10px 10px;
+}
+.card .card-head .placeholder{
+    height: 25px;
+    width: 75%;
+}
+.card .card-tagline .placeholder{
+    height: 20px;
+    width:90%
+}
+.card .card-footer{
+    margin-top: 15px;
+}
+.card .card-footer .location{
+    height: 12px;
+    max-width: 100px;
+}
+.app-ad{
+    padding: 0 10%;
+    background-color: #f9f9f9;
+}
+.app-ad .typography{
+    padding: 0 0% 0 0;
+    flex: 3;
+}
+.app-ad .typography .title{
+    text-transform: uppercase;
+}
+.app-ad .typography .slogan{
+    text-transform: capitalize;
+}
+.app-ad .app-links{
+    padding: 0 0 0 2%;
+    flex: 2;
+}
+.app-ad .app-links a{
+    padding-right: 2px;
+}
+
+
+
+

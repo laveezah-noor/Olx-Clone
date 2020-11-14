@@ -1,0 +1,428 @@
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    z-index: 10;
+    background-color: #f1f1f1;
+    box-shadow: 0px 2px 2px #dadada;
+    padding: 0px 5%;
+}
+.header .logo{
+    width: 50px;
+    margin-right: 20px;
+}
+.header .main-input .location{
+    background-color: #fff;
+    border: 2px #002f34 solid;
+    border-radius: 5px;
+}
+.header .main-input .location .icon-Search{
+    padding: 10px;
+}
+.header .main-input .location .label{
+    flex: 1;
+    padding: 10px;
+    border: 0px;
+}
+.header .main-input .location .icon-Arrow{
+    flex: 1;
+    padding: 10px;
+    border: 0px;
+    background-color: #fff;
+}
+
+.header .main-input .search{
+    background: #fff;
+    border: 2px #333 solid;
+    border-radius: 5px;
+    flex: 2;
+    margin: 0px 20px;
+}
+.header .main-input .search .query{
+    flex: 1;
+    padding: 10px;
+    border: 0px;
+}
+.header .main-input .search .icon-Search{
+    flex: 1;
+    padding: 10px;
+    border: 0px;
+    background-color: #002f34;
+}
+/* .header .main-input .search .icon-Search:hover{
+
+} */
+.header .actions{
+    flex: 1;
+    max-width: 200px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.header .actions .login{
+    text-decoration: none;
+    margin: 0 12px 10px 20px;
+    color: #002f34;
+    font-size: 16px;
+    height: 28px;
+    font-weight: bold;
+}
+.header .actions .sell{
+    border: none;
+    position: relative;
+    display: inline-block;
+    width: 104px;
+    height: 48px;
+}
+.header .actions .sell .Sell-Inner{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: #002f34;
+    padding-left: 8px;
+}
+.sell .Plus {
+    display: inline-flex;
+    margin-right: 4px;
+}
+.Sell-Btn-Fill-1{
+  fill: #fff;
+  stroke: none;
+  fill-rule: evenodd;
+  fill-opacity: 1;
+}
+
+.Sell-Btn-Fill-2{
+  fill: #ffce32;
+  stroke: none;
+  fill-rule: evenodd;
+  fill-opacity: 1;
+
+}
+
+.Sell-Btn-Fill-3{
+  fill: #23e5db;
+  stroke: none;
+  fill-rule: evenodd;
+  fill-opacity: 1;
+
+}
+
+.Sell-Btn-Fill-4{
+  fill: #3a77ff;;
+  stroke: none;
+  fill-rule: evenodd;
+  fill-opacity: 1;
+
+}
+
+.Plus-Fill{
+  fill: #002f34;
+}
+.Fill{
+    fill: #002f34; 
+}
+
+.color{color: #002f34;}
+
+
+.Nav{
+    background: #fff;
+    top: 70px;
+    height: 40px;
+    left: 0;
+    right: 0;
+    z-index: 8;
+    padding: 0 5%;
+    box-shadow: 0px 2px 2px rgb(218 218 218 / 36%);
+}
+.nav-head{
+    margin-right: 16px;
+    /* padding: 10px 15px; */
+}
+.nav-icon button{
+    border: none;
+    background-color: initial;
+    padding: 3px 10px;
+    margin-left: 10px;
+}
+.Nav a{
+    padding: 15px;
+    margin-right: 2px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+/* Footer */
+.footer{
+    padding: 0 14%;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+.footer .block{
+    padding: 20px 0px 50px 8px;
+    flex: 1;
+}
+.footer .block .title{
+    margin-bottom: 5px;
+}
+.footer .block a{
+    line-height: 1.5;
+}
+.footerb{
+    padding: 10px 2%;
+    background-color: #002f34;
+    color: #fff;
+}
+.footerb div{
+    padding: 0 12%;
+}
+.footerb div h2{
+    padding-right: 4px;
+}
+
+/* Login */
+.loginBtn{
+    color: #002f34 !important;
+    border-radius: 4px !important;
+    border: 2px solid #002f34 !important;
+}
+.loginBtn:hover{
+    border-width: 5px !important;
+}
+.span{
+    margin: 20px 0 0;
+    padding: 0 20px;
+    text-align: center;
+    color: rgba(0,47,52,.64);
+    font-size: 12px;
+}
+
+/* Sell */
+
+.Sell .header{
+    top: 0;
+    background-color: #f1f1f1;
+    height: 70px;
+}
+.Sell .header .logo{
+    float: left;
+    margin: 0 16px;
+}
+.Sell .header a{
+    float: left;
+    position: relative;
+    margin-right: 15px;
+    z-index: 3;
+    text-decoration: none;
+}
+.Sell .header a i{
+    color: #002f34;
+    font-size: 18px;
+}
+.Main-Ad{
+    max-width:1280px;
+    margin:0 auto;
+}
+.Ad{
+    margin: 0 16.6666666667%;
+}
+.Ad .Head{
+    text-transform: uppercase;
+    margin: 18px 0;
+}
+.Ad .Category{
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid rgba(0,47,52,.2);
+}
+.Ad .Category h3{
+    padding: 24px 30px 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.Ad .Category .List{
+    width: 50%;
+    border-radius: 0
+}
+.Ad .Category .List .List-item{
+    padding: 8px;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    color: rgba(0,47,52,.64);
+}
+.Ad .Category .List .List-item span i{
+    font-size: 18px;
+}
+.Ad .Category .List .List-item span{
+    margin: 0 7px;
+}
+.Ad .Category .List .List-item span i.fa-angle-right{
+    float: right;
+    right: 0;
+}
+.Ad .Catergory .List .List-item span.List-text{
+    width: 100%;
+    display: block;
+
+}
+.Ad .Category .List .List-item:hover{
+    color: #002f34;
+    background-color: rgba(0,47,52,.2);
+}
+.details{
+    width: 58.3333333333%;
+    margin-left:35px;
+    margin-right: auto;
+    left: auto;
+    right: auto
+}
+.breadcrumb{
+    background: #fff !important;
+    color: rgba(0,47,52,.64);
+}
+.breadcrumb .change{
+    border-bottom: 2px solid #002f34;
+    margin-top: -3px;
+}
+.breadcrumb .change:hover{
+    border-bottom-color: transparent;
+}
+.description{
+    display:flex;
+    justify-content: space-between;
+}
+.description span{
+    color: rgba(0,47,52,.64);
+    font-size: 12px;
+    justify-content: flex-end;
+    /* padding-left: 16px; */
+    white-space: nowrap;
+}
+.Upload{
+    border: 2px solid #9dadb6;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 104px;
+    vertical-align: top;
+    margin: 0 6px 6px 0;
+    width: 104px;
+}
+.Upload.active{
+    border: 2px solid #002f34;
+    color: #002f34;
+}
+.active{
+    color: #002f34 !important;
+}
+.Upload .Upload-box{
+    align-items: center;
+    cursor: pointer;
+    color: #9dadb6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.Upload .Upload-box img{
+    width: 104px
+}
+.Upload .Upload-box .button{
+    border: 0;
+    background: inherit;
+}
+.Upload .Upload-box .button label i{
+    font-size: 30px;
+    color: #9dadb6;
+}
+.li{
+    flex:1;
+}
+.li-btn{
+    border:0;
+    background:inherit;
+}
+.li.active{
+    border-bottom: 5px solid #002f34;
+    color: #002f34;
+    font-weight: 700;
+}
+.required{
+    color: #ff2800;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.input{
+    appearance: none;
+    background: none;
+    border: none;
+    color: #002f34;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+.figure{
+    width: 100px;
+    height: 100px;
+    background-image: url(&quot;https://statics.olx.com.pk/external/base/img/avatar_4.png&quot;);
+}
+.input-box{
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0,47,52,.64);
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 4px;
+    border-style: none;
+    margin: 4px 0;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* Item */
+.Carousel{
+    float: left;
+    width: 800px;
+}
+.Details{
+    width: 380px;
+    float: right;
+    padding: 5px;
+    border: 5px solid transparent;
+}
+.colorGrey{
+    color: rgba(0,47,52,.64);
+}
+.mainDetails{
+    width: 800px;
+}
+.w-800{
+    width: 800px !important;
+    max-width: 800px !important;
+}
