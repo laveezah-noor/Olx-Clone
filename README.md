@@ -1,4 +1,4 @@
-# Frontend Mentor - Time tracking dashboard
+# OLX Clone
 
 ![Design preview for the OLX Clone](./public/preview-screenshot.png)
 
