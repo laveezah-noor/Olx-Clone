@@ -31,7 +31,9 @@ function Login (props) {
   
   return (
     <>
-      {props.atr.current_user.length ?
+      {
+      // props.atr.current_user.length||
+      true ?
       <div>
         <div></div>
         <div></div>

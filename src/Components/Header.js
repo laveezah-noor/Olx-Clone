@@ -38,11 +38,11 @@ class Header_Main extends Component {
               </svg>
             </button>
             <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Separated link</a>
-              <div class="dropdown-divider"></div>
-              {this.props.props.Locations.map((option,i) => 
+              <a className="dropdown-item" href="#">Separated link</a>
+              <div className="dropdown-divider"></div>
+              {/* {this.props.props.Locations.map((option,i) => 
               {return(<a className="dropdown-item" key={i} href="#" value={option} onClick={(e)=>this.state.locationHandler(e)}>{option}</a>)})
-              }
+              } */}
             </div>
           </div>
           <div className="search flex align-c">
@@ -88,7 +88,9 @@ function Sell (props) {
   console.log(props)
   return (
     <>
-    {props.atr.current_user.length ?
+    {
+    // props.atr.current_user.length
+     true?
       <Link to="/sell">Sell</Link>
       :
       <span>
@@ -161,6 +163,8 @@ const mapStateToProps = (state) => ({
 //     facebook_login: () => dispatch(facebook_login()),
 // })
 
-export default connect(
-    mapStateToProps, null
-    )(Header);
+export default 
+// connect(
+//     mapStateToProps, null
+//     )
+    (Header);

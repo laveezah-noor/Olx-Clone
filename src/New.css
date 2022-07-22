@@ -165,13 +165,14 @@
 
 /* Footer */
 .footer{
-    padding: 0 14%;
+    padding: 0 10%;
     background-color: #f1f1f1;
     border-top: 1px solid #ccc;
 }
 .footer .block{
     padding: 20px 0px 50px 8px;
     flex: 1;
+    flex-direction: column;
 }
 .footer .block .title{
     margin-bottom: 5px;
@@ -179,10 +180,17 @@
 .footer .block a{
     line-height: 1.5;
 }
+.flex-row{
+    flex-direction: row;
+}
+.flex-row a{
+    padding: 8px;
+    }
 .footerb{
     padding: 10px 2%;
     background-color: #002f34;
     color: #fff;
+    flex-direction: row-reverse;
 }
 .footerb div{
     padding: 0 12%;
@@ -389,7 +397,7 @@
 .figure{
     width: 100px;
     height: 100px;
-    background-image: url(&quot;https://statics.olx.com.pk/external/base/img/avatar_4.png&quot;);
+    background-image: url("/public/banner-800x600.jfif");
 }
 .input-box{
     background: #fff;

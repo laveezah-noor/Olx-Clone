@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Route} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from '../container/Home'
 import About from '../container/About'
 import Sell from '../container/Sell'
@@ -12,12 +12,15 @@ class AppRouter extends React.Component {
         let ads = this.props.ads
         return(
             <Router>
-                <Route exact path='/' component={Home} />
-                <Route path='/about' component={About} />
-                <Route path="/sell" component={Sell} />
-                <Route path="/phone" component={phone} />
-                <Route path={"/item"} component={Item} />
+                <Routes>
+
+                <Route exact path='/' element={<Home/>} />
+                <Route path='/about' element={<About/>} />
+                <Route path="/sell" element={<Sell/>} />
+                <Route path="/phone" element={<phone/>} />
+                <Route path={"/item"} element={<Item/>} />
                 
+                </Routes>
             </Router>
         )
     }
@@ -34,6 +37,8 @@ const mapStateToProps = (state) => ({
   //     facebook_login: () => dispatch(facebook_login()),
   // })
   
-  export default connect(
-      mapStateToProps, null
-      )(AppRouter);
+  export default 
+//   connect(
+//       mapStateToProps, null
+//       )
+      (AppRouter);

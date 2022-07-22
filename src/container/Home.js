@@ -13,8 +13,8 @@ class Home extends React.Component {
             <div>
                 <Header />
                 <Main />
-                <h1>Home Page</h1>
-                <Link to="/about">Go To About</Link>
+                {/* <h1>Home Page</h1> */}
+                {/* <Link to="/about">Go To About</Link> */}
                 <Footer />
             </div>
         )
@@ -30,6 +30,8 @@ const mapDispatchToProps = (dispatch) => ({
     facebook_login: () => dispatch(facebook_login()),
 })
 
-export default connect(
-    mapStateToProps, mapDispatchToProps
-    )(Home);
+export default 
+// connect(
+    // mapStateToProps, mapDispatchToProps
+    // )
+    (Home);
